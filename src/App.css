@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.adduserbtn{
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icons{
+    margin-right: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.detail-card{
+    width: 600px;
+    height: 300px;
+    margin: 40px 20px;
+    border-radius: 4px;
+    padding: 20px 0;
+    box-shadow: 0 1px 16px 0 rgba(0, 0, 0, .2), 
+      0 2px 8px 0 rgba(0, 0, 0, .14),
+     0 4px 8px -1px rgba(0, 0, 0, .12);
+}
+.detail-card p{
+   text-align: start;
+   padding-left: 50px;
+}
+.table-striped-custom tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Set your desired background color for odd rows */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .table-striped-custom tbody tr:nth-of-type(even) {
+    background-color: #e6e6e6; /* Set your desired background color for even rows */
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
